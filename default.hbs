@@ -3,9 +3,20 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-58992617-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
+	<meta name="theme-color" content="#3498db">
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -13,6 +24,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+	<link rel="shortcut icon" href="/assets/timIcon.ico" />
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch" />{{/if}}
 
@@ -23,6 +35,30 @@
     <header id="site-head">
         {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+			<center>
+			
+			<a href="https://www.facebook.com/tflynn93" target="_blank">
+                <i class="fa fa-2x fa-fw fa-facebook-square"></i> <span class="hidden">Facebook</span>
+            </a>
+			<a href="https://www.linkedin.com/pub/timothy-flynn/80/808/9a" target="_blank">
+                <i class="fa fa-2x fa-fw fa-linkedin-square"></i> <span class="hidden">LinkedIn</span>
+            </a>
+			<a href="https://github.com/tflynn93" target="_blank">
+                <i class="fa fa-2x fa-fw fa-github-square"></i> <span class="hidden">GitHub</span>
+            </a>
+			<a href="http://timflynn.info" target="_blank">
+                <i class="fa fa-2x fa-fw fa-home"></i> <span class="hidden">Website</span>
+            </a>
+			<a href="https://twitter.com/tf93" target="_blank">
+                <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
+            </a>
+            <a href="https://plus.google.com/u/0/+TimFlynn93" target="_blank">
+                <i class="fa fa-2x fa-fw fa-google-plus-square"></i> <span class="hidden">Google+</span>
+            </a>	
+			<a href="https://www.youtube.com/user/tflynn93" target="_blank">
+                <i class="fa fa-2x fa-fw fa-youtube-square"></i> <span class="hidden">Youtube</span>
+            </a>
+			</center>
         {{> header-description}}
         {{!> menu}}
     </header>
@@ -33,8 +69,8 @@
         <div class="inner">
             {{!> footer-description}}
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved.</section>
-            <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
-            <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
+            <section>Theme is a lightly modified version of Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
+            <section class="poweredby">Proudly published with Ghost <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
         </div>
     </footer>
 
