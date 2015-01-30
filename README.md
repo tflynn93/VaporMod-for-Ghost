@@ -1,4 +1,4 @@
-# VaporMod for Ghost
+# Vaporesque
 
 *Vaporesque* is a [Ghost](http://ghost.org/) theme for my [blog](http://blog.timflynn.info) that is a slightly modified version of [**Vapor**](https://github.com/sethlilly/Vapor) by [Seth Lilly](https://github.com/sethlilly).
 
