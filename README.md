@@ -1,6 +1,6 @@
 # VaporMod for Ghost
 
-*VaporMod for Ghost* is a [Ghost](http://ghost.org/) theme for my [blog](http://blog.timflynn.info) that is a slightly modified version of [**Vapor**](https://github.com/sethlilly/Vapor) by [Seth Lilly](https://github.com/sethlilly).
+*Vaporesque* is a [Ghost](http://ghost.org/) theme for my [blog](http://blog.timflynn.info) that is a slightly modified version of [**Vapor**](https://github.com/sethlilly/Vapor) by [Seth Lilly](https://github.com/sethlilly).
 
 Description of **Vapor** from Seth Lilly
 >Minimal and responsive with a focus on typography, **Vapor** is a theme that embodies the core concept of >[Ghost](http://ghost.org/)&mdash;it fades into the background, bringing the focus to your content.
